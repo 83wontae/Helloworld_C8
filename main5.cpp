@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <bitset>
 
@@ -31,7 +32,10 @@ int main()
 
 	{
 		int num = 10;
-		cout << bitset<32>(num) << endl;
+		cout << "2진수 표기 : " << bitset<32>(num) << endl;
+		cout << "8진수 표기 : " << oct << num << endl;
+		cout << "10진수 표기 : " << dec << num << endl;
+		cout << "16진수 표기 : " << hex << num << endl;
 
 		int x = 0x35;
 		int y = 0xf0;
@@ -82,3 +86,4 @@ int main()
 		int a = static_cast<int>(d);
 	}
 }
+*/
