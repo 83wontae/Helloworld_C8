@@ -67,7 +67,7 @@ int main()
 		cout << "F" << endl;
 	}
 
-
+	// a, b 2개의 값을 받아서 a - b 가 0보다 크면 true 작으면 false
 	int a, b = { 0 };
 	cout << "A is ?";
 	cin >> a;
@@ -86,6 +86,7 @@ int main()
 		break;
 	}
 
+	// a, b, c 3개의 값을 받아서 a + b 가 c보다 크면 a + b 작으면 c
 	int a, b, c = { 0 };
 	cout << "A is ?";
 	cin >> a;
@@ -105,6 +106,11 @@ int main()
 		break;
 	}
 
+	//숫자 하나를 입력 받아서
+	//1이면 "Red" 출력
+	//2이면 "Blue" 출력
+	//3이면 "Black" 출력
+	//4이면 "White" 출력
 	int a = { 0 };
 	cout << "숫자 하나를 입력? " << endl;
 	cin >> a;
@@ -126,6 +132,12 @@ int main()
 		break;
 	}
 	*/
+
+	//"주민번호 뒤에 7자리를 입력? "
+	//숫자가 7자리 이고
+	//맨 앞자리의 수가 1,3이면은 "남자"
+	//맨 앞자리의 수가 2,4이면은 "여자"
+	//그 밖의 다른 수는 "외계인"
 	int a = { 0 };
 	cout << "주민번호 뒤에 7자리를 입력? " << endl;
 	cin >> a;
