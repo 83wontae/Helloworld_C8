@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <bitset>
 
@@ -5,7 +6,6 @@ using namespace std;
 
 int main()
 {
-	/*
 	cout << "* * * * * * * * * *" << endl;
 	cout << "*                 *" << endl;
 	cout << "*                 *" << endl;
@@ -43,7 +43,7 @@ int main()
 	{
 		cout << "false" << endl;
 	}
-	*/
+	
 
 	int a, b, c = { 0 };
 	cout << "A is ?";
@@ -61,5 +61,29 @@ int main()
 	{
 		cout << c << endl;
 	}
+	
 
+	int a = 0b10101010;//2진법 표기법
+	int b = 0111;//8진법 표기법
+	int c = 0xff;//16진법 표기법
+
+	cout << a + b - c << endl;
+	
+	int a, b, c = { 0 };
+	cout << "A is ?";
+	cin >> a;
+	cout << "B is ?";
+	cin >> b;
+	cout << "C is ?";
+	cin >> c;
+
+	if (c > a && a > b)
+	{
+		cout << "true" << endl;
+	}
+	else
+	{
+		cout << "false" << endl;
+	}
 }
+*/
