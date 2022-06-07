@@ -48,6 +48,17 @@ int main()
 		sum += myVector[i];
 	}
 	cout << "sum = " << sum << endl;
-
 	//<---
+
+	int myArray[3] = { 11, 22, 33 };
+	//myArray에 모든 값에 1씩 더해보자 (11, 22, 33) -> (12, 23, 34)
+	for (int& i : myArray)
+	{
+		i++;
+	}
+	
+	for (int i : myArray)
+	{
+		cout << "myArray[" << i << "] = " << i << endl;
+	}
 }
