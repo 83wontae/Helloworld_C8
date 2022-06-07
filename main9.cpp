@@ -42,7 +42,11 @@ int main()
 	int sum = 0;
 
 	//for (int i : myVector)
-	//for (auto iter = myVector.begin(); iter < myVector.end(); iter++)
+	for (auto iter = myVector.begin(); iter < myVector.end(); iter++)
+	{
+		sum += *iter;
+	}
+
 	for (int i = 0; i < myVector.size(); ++i)
 	{
 		sum += myVector[i];
