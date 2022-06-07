@@ -9,10 +9,10 @@ int main()
 	{
 		int a = 10;
 		int b = 0;
-		//b = a++;
-		//b = ++a;
-		//b = a--;
-		b = --a;
+		//b = a++;//b = 10 , a = 11;
+		//b = ++a;//b = 11 , a = 11;
+		//b = a--;//b = 10 , a = 9;
+		b = --a;//b = 9 , a = 9;
 		cout << "a = " << a << " b = " << b << endl;
 	}
 
@@ -24,7 +24,7 @@ int main()
 		result = (a == b) ? true : false;
 		result = (a > 0 && b > 0) ? true : false;
 		result = (a > 0 || b > 0) ? true : false;
-		result = (a < 0 && --b > 0) ? true : false;
+		result = (a < 0 && --b > 0) ? true : false;// b=-5
 		result = !(a > 0) ? true : false;
 		cout << "Reulst = " << boolalpha << result << noboolalpha 
 			<< result << " b = " << b << endl;
@@ -35,7 +35,7 @@ int main()
 		cout << "2진수 표기 : " << bitset<32>(num) << endl;
 		cout << "8진수 표기 : " << oct << num << endl;
 		cout << "10진수 표기 : " << dec << num << endl;
-		cout << "16진수 표기 : " << hex << num << endl;
+		cout << "16진수 표기 : " << hex << num << dec << endl;
 
 		int x = 0x35;
 		int y = 0xf0;
@@ -57,7 +57,7 @@ int main()
 	}
 
 	{
-		//형 변환
+		//묵시적 형 변환
 
 		int intVar = 7;
 		double doubleVar = 1.5;

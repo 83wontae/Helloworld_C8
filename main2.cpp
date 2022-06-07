@@ -23,7 +23,8 @@ int main(int argc, char* argv[]) {
 	double d1 = 1200.;
 	double d2 = 1200.0;
 	double d3 = 12e2;// 12 * (10^2)
-	double d4 = 1.2e-3;// 1.2 * (10^3)
+	double d4 = 1.2e+3;// 1.2 * (10^3)
+	double d5 = 1.2e-3;// 1.2 * (0.1^3)
 	cout << d1 << " " << d2 << " " << d3 << " " << d4 << endl;
 }
 */
