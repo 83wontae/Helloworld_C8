@@ -1,10 +1,10 @@
+/*
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-	/*
 	int Score = { 0 };
 	cin >> Score;
 	
@@ -131,7 +131,7 @@ int main()
 	default:
 		break;
 	}
-	*/
+	
 
 	//"주민번호 뒤에 7자리를 입력? "
 	//숫자가 7자리 이고
@@ -162,3 +162,4 @@ int main()
 		break;
 	}
 }
+*/
