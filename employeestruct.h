@@ -1,6 +1,6 @@
 #pragma once
 
-struct  Employee
+struct Employee
 {
 	char firstInitial;
 	char lastInitial;
